@@ -1,9 +1,9 @@
 #
 # Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
 #
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
+# This file is part of < https://github.com/TeamYukki/X2RZ7WXBot > project,
 # and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
+# Please see < https://github.com/TeamYukki/X2RZ7WXBot/blob/master/LICENSE >
 #
 # All rights reserved.
 
@@ -13,12 +13,12 @@ from pyrogram.types import Message
 from config import BANNED_USERS
 from strings.filters import command
 from strings import get_command
-from YukkiMusic import app
-from YukkiMusic.misc import SUDOERS
-from YukkiMusic.utils.database import (blacklist_chat,
+from X2RZ7WX import app
+from X2RZ7WX.misc import SUDOERS
+from X2RZ7WX.utils.database import (blacklist_chat,
                                        blacklisted_chats,
                                        whitelist_chat)
-from YukkiMusic.utils.decorators.language import language
+from X2RZ7WX.utils.decorators.language import language
 
 # Commands
 
