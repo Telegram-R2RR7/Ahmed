@@ -63,7 +63,7 @@ class Userbot(Client):
             assistants.append(1)
             try:
                 await self.one.send_message(
-                    config.LOG_GROUP_ID, "تم تنصيب سورس تگسن"
+                    config.LOG_GROUP_ID, "تم تنصيب"
                 )
             except:
                 LOGGER(__name__).error(
@@ -92,7 +92,7 @@ class Userbot(Client):
             assistants.append(2)
             try:
                 await self.two.send_message(
-                    config.LOG_GROUP_ID, "تم تنصيب سورس تگسن"
+                    config.LOG_GROUP_ID, "تم تنصيب سورس "
                 )
             except:
                 LOGGER(__name__).error(
