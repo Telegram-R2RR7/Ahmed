@@ -9,7 +9,7 @@
 
 from X2RZ7WX.core.bot import YukkiBot
 from X2RZ7WX.core.dir import dirr
-
+from X2RZ7WX.core.git import git
 from X2RZ7WX.core.userbot import Userbot
 from X2RZ7WX.misc import dbb, heroku, sudo
 
