@@ -11,7 +11,7 @@ import time
 
 import psutil
 
-from X2RZ7WX.misc import _boot_
+from YukkiMusic.misc import _boot_
 
 from .formatters import get_readable_time
 
