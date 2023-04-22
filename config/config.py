@@ -42,6 +42,7 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001835271223"))
 # A name for your Music bot.
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "siii")
 
+BOT_USERNAME = getenv("BOT_USERNAME", "with2siibot")
 # Your User ID.
 OWNER_ID = list(
     map(int, getenv("OWNER_ID", "5296856785").split())
