@@ -1,9 +1,9 @@
 #
 # Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
 #
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
+# This file is part of < https://github.com/TeamYukki/X2RZ7WXBot > project,
 # and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
+# Please see < https://github.com/TeamYukki/X2RZ7WXBot/blob/master/LICENSE >
 #
 # All rights reserved.
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
@@ -21,21 +21,21 @@ from config import (BANNED_USERS, lyrical, YAFA_NAME,
                     YAFA_CHANNEL, CHANNEL_SUDO)
 from strings import get_command
 from strings.filters import command
-from YukkiMusic import (Apple, Resso, SoundCloud, Spotify, Telegram,
+from X2RZ7WX import (Apple, Resso, SoundCloud, Spotify, Telegram,
                         YouTube, app)
-from YukkiMusic.core.call import Yukki
-from YukkiMusic.utils import seconds_to_min, time_to_seconds
-from YukkiMusic.utils.channelplay import get_channeplayCB
-from YukkiMusic.utils.database import is_video_allowed
-from YukkiMusic.utils.decorators.language import languageCB
-from YukkiMusic.utils.decorators.play import PlayWrapper
-from YukkiMusic.utils.formatters import formats
-from YukkiMusic.utils.inline.play import (livestream_markup,
+from X2RZ7WX.core.call import Yukki
+from X2RZ7WX.utils import seconds_to_min, time_to_seconds
+from X2RZ7WX.utils.channelplay import get_channeplayCB
+from X2RZ7WX.utils.database import is_video_allowed
+from X2RZ7WX.utils.decorators.language import languageCB
+from X2RZ7WX.utils.decorators.play import PlayWrapper
+from X2RZ7WX.utils.formatters import formats
+from X2RZ7WX.utils.inline.play import (livestream_markup,
                                           playlist_markup,
                                           slider_markup, track_markup)
-from YukkiMusic.utils.inline.playlist import botplaylist_markup
-from YukkiMusic.utils.logger import play_logs
-from YukkiMusic.utils.stream.stream import stream
+from X2RZ7WX.utils.inline.playlist import botplaylist_markup
+from X2RZ7WX.utils.logger import play_logs
+from X2RZ7WX.utils.stream.stream import stream
 
 
 force_btn = InlineKeyboardMarkup(
