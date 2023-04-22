@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 import os
 
 import requests
-import wget
+
 import yt_dlp
 from strings.filters import command
 from pyrogram import Client, filters
