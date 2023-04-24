@@ -44,7 +44,7 @@ def start_pannel(_):
                 ),
                 InlineKeyboardButton(
 
-                    text=_["S_B_9"], url=f"https://t.me/so_alfaa"
+                    text=_["S_B_9"], url=f"https://t.me/A_Q_N6"
 
                 ),
             ]
@@ -127,11 +127,11 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             buttons.append(
                 [
                     InlineKeyboardButton(
-                        text=_["S_B_11"], url=f"https://t.me/R2RR7"
+                        text=_["S_B_11"], url=f"https://t.me/ApplicationsANTER"
                     ),
                     InlineKeyboardButton(
 
-                        text=_["S_B_12"], url=f"https://t.me/R2RR7"
+                        text=_["S_B_12"], url=f"https://t.me/ApplicationsANTER"
 
                     ),
                 ]
@@ -144,7 +144,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                     ),
                     InlineKeyboardButton(
 
-                        text=_["S_B_10"], url=f"https://t.me/R2RR7"
+                        text=_["S_B_10"], url=f"https://t.me/A_Q_N6"
 
                     ),
                 ]
