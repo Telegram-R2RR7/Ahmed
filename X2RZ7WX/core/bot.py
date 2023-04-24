@@ -33,7 +33,7 @@ class YukkiBot(Client):
         self.id = get_me.id
         try:
             await self.send_message(
-                config.LOG_GROUP_ID, "تم تنصيب سورس تگسن"
+                config.LOG_GROUP_ID, "تم تنصيب سورس @R2RR7"
             )
         except:
             LOGGER(__name__).error(
