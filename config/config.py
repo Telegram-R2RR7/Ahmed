@@ -21,7 +21,7 @@ API_ID = int(getenv("API_ID", "14990654"))
 API_HASH = getenv("API_HASH", "c6d66eb4d2a5e33e54834e0cbc305c2d")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "6276422958:AAGm7i1Qaq4jJBk5aHNNW0l77OAsEW1u8wA")
+BOT_TOKEN = getenv("BOT_TOKEN", "6916506689:AAGvnQgzVn3fc6C5iTInmbTsnVZE1dxLu0I")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://500098938:500098938@cluster0.sjhwkpk.mongodb.net/?retryWrites=true&w=majority")
@@ -37,7 +37,7 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001910827921"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002139451404"))
 
 # A name for your Music bot.
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Me")
@@ -139,7 +139,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 SET_CMDS = getenv("SET_CMDS", False)
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", "AQCkkWDsYXW1PsRVsAnqNK9Iy32c8ey8kylodgj1oNrAVAVWWmJQJnSthe-OK9p-knJjgzNK98ejcoGdAXg1KUwYNHVqWPGXlrjLVnKIjb07L7HIwmiWTQ5e90e8_zZqfCSN740LGWJFiP3ZlC4ALsCHM4aERwbDt2blSWPoGAsAbb-vzLnqiIk_rkXWNZcISoGqoP9-saKQMVZ6y2sOHVcYO5rZgRXP0ZK68J7UyGvssKnUUFPcMXd_06yqkHAIQxQokXLB_RkUawW4dgcV31vOeJlBzz9fFHL5chFQMzKwVyhZ45FwiVUg8mp1bN5kM_y464yf95aEfm9mRJwkJBvcAAAAAWvkt_EA")
+STRING1 = getenv("STRING_SESSION", "AgAd2t5vdO4RC0-mGRTFLj_nt_cPU6ycatDRUlOf2Q7eIcnUY7dfTUglajiApVsiOU0TfCNw34M3cvVAj0LsG-sxqBLHH_N3sCzGaiDZnKgPTRYWqkh1c9MY4HNWfnUoFiKz8it_sYNgHQcVb9hUE3zrEdw3MwGUffXDDnu11dyDX1-YHGzxHMLBNLxmKakgz9Sormzph8p_dxgFdaSZqm4go8BFrXfZ0VhavkHxcdPXyp6tajGmoz5phikgifC_KmzXdKiaQZpc1lP8DvxcmDXuFgtcvjwnk4zvgTdggseiwifNbF60vihpP6KIAWsC8fby3w97xNgyiEnPub-AXoHjAAAAAXqXjB0A")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
