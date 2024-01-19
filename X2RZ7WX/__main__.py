@@ -62,7 +62,7 @@ async def init():
     await Yukki.start()
     try:
         await Yukki.stream_call(
-            "http://docs.evostream.com/sample_content/assets/sintel1m720p.mp4"
+            "http://king4k.one/play/live.php?mac=00:1a:79:00:00:55&stream=677337&extension=m3u8&play_token=BCyc0keDpi"
         )
     except NoActiveGroupCall:
         LOGGER("X2RZ7WX").error(
