@@ -21,7 +21,7 @@ API_ID = int(getenv("API_ID", "14990654"))
 API_HASH = getenv("API_HASH", "c6d66eb4d2a5e33e54834e0cbc305c2d")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "6916506689:AAGvnQgzVn3fc6C5iTInmbTsnVZE1dxLu0I")
+BOT_TOKEN = getenv("BOT_TOKEN", "6276422958:AAGm7i1Qaq4jJBk5aHNNW0l77OAsEW1u8wA")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://500098938:500098938@cluster0.sjhwkpk.mongodb.net/?retryWrites=true&w=majority")
@@ -73,11 +73,11 @@ SUPPORT_GROUP = getenv(
 )  # Example:- https://t.me/R2RR7
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
-AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", None)
+AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "false")
 
 # Time after which you're assistant account will leave chats automatically.
 AUTO_LEAVE_ASSISTANT_TIME = int(
-    getenv("ASSISTANT_LEAVE_TIME", "5400")
+    getenv("ASSISTANT_LEAVE_TIME", "120000")
 )  # Remember to give value in Seconds
 
 # Time after which bot will suggest random chats about bot commands.
@@ -139,7 +139,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 SET_CMDS = getenv("SET_CMDS", False)
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", "AgAd2t5vdO4RC0-mGRTFLj_nt_cPU6ycatDRUlOf2Q7eIcnUY7dfTUglajiApVsiOU0TfCNw34M3cvVAj0LsG-sxqBLHH_N3sCzGaiDZnKgPTRYWqkh1c9MY4HNWfnUoFiKz8it_sYNgHQcVb9hUE3zrEdw3MwGUffXDDnu11dyDX1-YHGzxHMLBNLxmKakgz9Sormzph8p_dxgFdaSZqm4go8BFrXfZ0VhavkHxcdPXyp6tajGmoz5phikgifC_KmzXdKiaQZpc1lP8DvxcmDXuFgtcvjwnk4zvgTdggseiwifNbF60vihpP6KIAWsC8fby3w97xNgyiEnPub-AXoHjAAAAAXqXjB0A")
+STRING1 = getenv("STRING_SESSION", "AgE9cVgAtfnMa8j8ERRFBpHjlbHv93TkIw94OFlgDFKKuKgRSmgZoLNVMR_D-v78QavK5VS7tWpNZsbzWjL5egCzHedFE1oxz026HAmCbGWDtabLUDG4Z2uofd2lnXskVe2l4ABghmsO2f5JROvyVwiG4S5ryrGFVMP5TkuajUY0_-mmPtGvKvhKtzbqCokckRgM7jOD_4ZCGlD7joNctLSWcz2pJ5v-Ty2Xo97xM-wuEu-XEGxCsclujhyOCxfvDUMeuaYo1hW-rCAx8o3w2qtbLgK0dwfD9fIM_A3aEG3TTUgsV7yVU5E-o33jUWOO9vUfGWRcGEnslPHAzf_dP4jAZD33ZwAAAAF6l4wdAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
